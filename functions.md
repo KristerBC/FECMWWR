@@ -1,9 +1,8 @@
 **RFCode:** long   
 **fromDelay:** integer | *   
 **toDelay:** integer | *   
-**dimStatus:** = float | -= float | += float | ++ | -- | ^ float | ¨ float | ~ float   
+**dimStatus:** = float | -= float | += float | ^ float | ¨ float | ~ float   
  - dimStatus is between 0 and 1
- - dimStatus++ equivalent to dimStatus+=0.01
  
 
 #### onRFReceive(RFCode, [fromDelay,toDelay]) -> dimStatus++
