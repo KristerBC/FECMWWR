@@ -5,7 +5,7 @@ This is a lightweight firmware that can be used on devices containing a ESP82xx 
 
 ### Functionalities on first release(November 4th 2018)
  - Programmable Single Button RF remote actions when you click the remote in using a pattern
- - Programmable Multi Button RF remote action
+ - Programmable Multi Button RF remote actions
  - MQTT
  - WIFI
  - OTA(Over-The-Air Programming)
