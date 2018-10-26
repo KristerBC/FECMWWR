@@ -1,3 +1,7 @@
+#### Operators
+ - value -= number -> decreases value with number
+
+#### Variables
 **RFCode:** long   
 **fromDelay:** integer | *   
 **toDelay:** integer | *   
