@@ -1,5 +1,21 @@
 #### Operators
- - value -= number -> decreases value with number
+**value -= number**   
+Decreases value with number. If value has a lower limit and it has been reached, value = the lower limit
+**value += number**   
+Increases value with number. If value has a upper limit and it has been reached, value = the upper limit
+**value ^ number**   
+as +=, but if the upper limit of value has been reached, the increment will restart from the lower limit.   
+Ex. value = 80, lower limit = 0 and upper limit = 100   
+value ^ 10 -> value = 90
+value ^ 10 -> value = 100
+value ^ 10 -> value = 10
+value ^ 10 -> value = 20
+**value ¨ number**
+as ^, but as a decrement instad of an increment
+**value ~ number**
+Only works for certain variables. For example dimStatus. When lower limit or upper limit is reached, dimUp will be inversed.
+Ex. dimStatus = 0.8, lower limit = 0, upper limit = 1
+dimStatus ~ 0.1 -> dimStatus
 
 #### Variables
 **RFCode:** long   
