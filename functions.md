@@ -1,4 +1,4 @@
-#### Operators
+### Operators
 **value -= number**   
 Decreases value with number. If value has a lower limit and it has been reached, value = the lower limit   
 **value += number**   
@@ -20,14 +20,13 @@ dimStatus ~ 0.1 -> dimStatus = 1.0, dimUp = true
 dimStatus ~ 0.1 -> dimStatus = 0.9, dimUp = false    
 dimStatus ~ 0.1 -> dimStatus = 0.8, dimUp = false   
 
-#### Variables
+### Variables
 **RFCode:** long   
 **fromDelay:** integer | *   
 **toDelay:** integer | *   
 **dimStatus:** = float | -= float | += float | ^ float | ¨ float | ~ float   
  - dimStatus is between 0 and 1
  
-
+### Functions
 #### onRFReceive(RFCode, [fromDelay,toDelay]) -> dimStatus++
 When RFCode is receive between fromDelay and toDelay, then the dimmer will increase by 1 percentage point.
-####
