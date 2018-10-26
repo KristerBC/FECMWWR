@@ -28,5 +28,8 @@ dimStatus ~ 0.1 -> dimStatus = 0.8, dimUp = false
  - dimStatus is between 0 and 1
  
 ### Functions
-#### onRFReceive(RFCode, [fromDelay,toDelay]) -> dimStatus++
+#### onRFReceive(RFCode, [fromDelay,toDelay]) -> dimStatus+=0.01
 When RFCode is receive between fromDelay and toDelay, then the dimmer will increase by 1 percentage point.
+
+**onRFReceive(123456789, [100,200]) -> dimStatus+=0.01**   
+When the RFCode 123456789 is received and the last time an RFCode received is between 100 and 200 milliseconds, then increase the luminosity by 1 percentage point.
